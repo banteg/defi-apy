@@ -58,10 +58,6 @@ contracts = {
 }
 
 # prometheus gauges
-crv_balance = Gauge('crv_balance', '', ['address'])
-crv_vested = Gauge('crv_vested', '', ['address'])
-crv_gauge_claimable = Gauge('crv_gauge_claimable', '', ['address', 'gauge'])
-crv_gauge_balance = Gauge('crv_gauge_balance', '', ['address', 'gauge'])
 crv_gauge_inflation_rate = Gauge('crv_gauge_inflation_rate', '', ['gauge'])
 crv_gauge_virtual_price = Gauge('crv_gauge_virtual_price', '', ['gauge'])
 crv_gauge_working_supply = Gauge('crv_gauge_working_supply', '', ['gauge'])
